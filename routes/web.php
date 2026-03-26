@@ -47,9 +47,9 @@ Route::middleware('guest')->group(function () {
 /********************
  EMAIL VERIFICATION
  ********************/
-// Route::get('/email/verify', function () {
-//     return view('verify-email');
-// })->name('verification.notice');
+Route::get('/email/verify', function () {
+    return view('verify-email');
+})->name('verification.notice');
 
 Route::get('/email/verify/{id}/{hash}', function (Request $request, $id) {
     $user = User::findOrFail($id);
