@@ -49,7 +49,7 @@ Route::middleware('guest')->group(function () {
  ********************/
 Route::get('/email/verify', function () {
     return view('verify-email');
-})->name('verification.notice');
+})->name('verification.notice1');
 
 Route::get('/email/verify/{id}/{hash}', function (Request $request, $id) {
     $user = User::findOrFail($id);

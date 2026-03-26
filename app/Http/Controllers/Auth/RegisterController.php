@@ -39,7 +39,7 @@ class RegisterController extends Controller
 
             $user->sendEmailVerificationNotification();
 
-            return redirect()->route('verification.notice');
+            return redirect()->route('verification.notice1');
 
         } catch (\Exception $e) {
 
