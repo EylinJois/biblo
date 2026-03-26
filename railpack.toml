@@ -1,2 +1,2 @@
 [build]
-providers = ["php"]
+providers = ["php", "node"]
