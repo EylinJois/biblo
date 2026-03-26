@@ -139,7 +139,7 @@
 
         </a>
 
-        <form method="POST" action="{{ route('logout') }}">
+        <form method="POST" action="{{ route('Logout') }}">
             @csrf
             <button type="submit" class="btn-logout group">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
