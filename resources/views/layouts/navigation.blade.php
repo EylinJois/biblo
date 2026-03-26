@@ -12,9 +12,9 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="url()->previous()">
+                    <x-responsive-nav-link :href="url()->previous()">
                         {{ __('Kembali') }}
-                    </x-nav-link>
+                    </x-responsive-nav-link>
                 </div>
             </div>
 
